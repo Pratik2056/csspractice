@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('landsite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    opacity: 1;
+
+}
+
+
+.logo {
+    font-size: 40px;
+    color: white;
+    opacity: 0.6;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 1;
+    padding: 5px;
+
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+
+
+
+
+}
+
+input[type="text"] {
+    height: 40%;
+}
+
+.btn {
+    margin-right: 10px;
+    height: 40%;
+    margin-left: -4px;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+
+}
+
+p {
+    color: orangered;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.description-1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px;
+    height: 40%;
+}
+
+.description-2 {
+    margin: 80px;
+    padding: 80px;
+    width: 90%;
+    font-size: 30px;
+    justify-content: center;
+
+
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    color: brown;
+}
+
+input[type="button"] {
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 20px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
