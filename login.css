@@ -8,15 +8,16 @@ body{
     background-size: cover;
 }
 .container{
-    margin:15px;
-    margin-top:80px;
+   margin:  5rem auto;
     display: flex;
     background-color: gold;
-    width:500px;
+  width: 60%;
     height:450px;
     border-radius: 40px;
     opacity:0.9;
+    position: relative;
     
+
 }
 form{
     margin-top: 10%;
@@ -30,7 +31,7 @@ h1{
 b{
     color:blue;
     text-align: center;
-    padding: 80%;
+
 }
 
 
@@ -47,4 +48,32 @@ button{
     height: 15%;
     color:blue;
 }
+.sub-container
+{
+   position: absolute;
+   top: 5rem;
+   left: 9rem;
 
+  
+}
+.sub-container input
+{
+    height: 50px;
+    line-height: 2rem;
+    padding-left:0.2rem ;
+    margin-top: 0.5rem;
+    max-width: 600px;
+}
+.label
+{
+    margin-left: 12rem;
+}
+[type="button"]
+{
+   max-width: 100px;
+   margin-left: 12rem;
+}
+.heading-label
+{
+    margin-left: 9rem;
+}
