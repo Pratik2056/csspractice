@@ -11,11 +11,10 @@ body {
 }
 
 nav {
-
     display: flex;
     justify-content: space-between;
     height: 15%;
-    opacity: 1;
+
 
 }
 
@@ -56,14 +55,17 @@ input[type="text"] {
 
 a {
     text-decoration: none;
-    color: orangered;
+    color: blue;
     font-size: 20px;
 
 }
 
-a:hover {
+.b:hover {
     color: white;
-    text-decoration: underline;
+
+}
+.b:visited{
+    color:white;
 }
 
 h2 {
@@ -74,7 +76,8 @@ h2 {
 }
 
 p {
-    color: orangered;
+    color: white;
+    padding-top: 10px;
 }
 
 .container {
@@ -86,15 +89,18 @@ p {
 
 .description-1 {
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 30%;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
     height: 40%;
+    
 }
 
 .description-2 {
-    margin: 80px;
-    padding: 80px;
+    margin: 90px;
+    margin-right: 50px;;
+    padding: 90px;
     width: 90%;
     font-size: 30px;
     justify-content: center;
@@ -108,19 +114,22 @@ h4 {
 }
 
 h3 {
-    color: brown;
+    color: blue;
 }
 
-input[type="button"] {
-    height: 50px;
-    width: 150px;
-    background-color: green;
+.a {
+    text-decoration: none;
+    background-color: blue;
     color: white;
-    border: none;
-    margin: 20px;
-    margin-right: 50px;
-    justify-content: center;
-    align-items: center;
-    
+    width: 10%;
+    height: 30px;
+    position: absolute;
+    right:35%;
+    top: 55%;
+    padding: 10px;
+    border-radius: 15px;
 
+}
+.a:hover {
+    text-decoration: none;
 }
